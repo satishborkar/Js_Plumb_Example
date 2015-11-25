@@ -1,0 +1,101 @@
+#main{
+	width: 70%;
+	float: left;
+	background: #ccc;
+	height: auto;
+}
+.window {
+	border: 1px solid #346789;
+	box-shadow: 2px 2px 19px #aaa;
+	-o-box-shadow: 2px 2px 19px #aaa;
+	-webkit-box-shadow: 2px 2px 19px #aaa;
+	-moz-box-shadow: 2px 2px 19px #aaa;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	width: 130px;
+	min-height: 60px;
+	height: auto;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 20;
+	position: absolute;
+	background-color: #eeeeef;
+	color: black;
+	padding:15px;
+	font-size:12px;
+	font-weight: bold;
+}
+.window:hover {
+
+	box-shadow: 2px 2px 19px #444;
+	-o-box-shadow: 2px 2px 19px #444;
+	-webkit-box-shadow: 2px 2px 19px #444;
+	-moz-box-shadow: 2px 2px 19px #444;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	cursor: move;
+}
+
+
+.systemQuestion{
+	background: #2ca7e0;
+	color: #fff;
+	border-color:#087cb1;
+}
+.active {
+	border: 1px dotted green;
+}
+.hover {
+	border: 1px dotted red;
+}
+
+#window1 {
+	top: 80px;
+	left: 40px;
+}
+#window2 {
+	top: 200px;
+	left: 300px;
+}
+#window3 {
+	top: 200px;
+	left: 600px;
+}
+#window4 {
+	top: 200px;
+	left: 900px;
+}
+._jsPlumb_connector {
+	z-index: 4;
+}
+._jsPlumb_endpoint, .endpointTargetLabel, .endpointSourceLabel {
+	z-index: 21;
+	cursor: pointer;
+	font-size:8px;
+}
+.hl {
+	border: 3px solid red;
+}
+#debug {
+	position: absolute;
+	background-color: black;
+	color: red;
+	z-index: 5000
+}
+
+._jsPlumb_dragging {
+	z-index: 4000;
+}
+
+.aLabel {
+	background-color: white;
+	padding: 0.4em;
+	font: 12px sans-serif;
+	color: #444;
+	z-index: 21;
+	border: 1px dotted gray;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
